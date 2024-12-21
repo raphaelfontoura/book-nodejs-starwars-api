@@ -18,8 +18,8 @@ const render = result => {
 
   Tem ${count} pessoas
 
-  Name        | Height  | Mass  | Hair Color  | Skin Color  | Eye Color | Birth Year  | Gender  |
-  ------------|---------|-------|-------------|-------------|-----------|-------------|---------|
+   Name            | Height   | Mass   | Hair Color   | Skin Color   | Eye Color  | Birth Year  | Gender   |
+  -----------------|----------|--------|--------------|--------------|------------|-------------|----------|
   ${items.map(item => {
     return [
       item.name,
